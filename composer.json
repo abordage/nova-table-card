@@ -1,0 +1,65 @@
+{
+    "name": "abordage/nova-table-card",
+    "description": "A Laravel Nova card for displaying lists with links to view and edit",
+    "license": "MIT",
+    "keywords": [
+        "laravel nova",
+        "nova card",
+        "nova table card"
+    ],
+    "authors": [
+        {
+            "name": "Pavel Bychko",
+            "email": "box@abordage.dev",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/abordage/nova-table-card",
+    "require": {
+        "php": ">=7.4",
+        "ext-json": "*",
+        "laravel/nova": "^4.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.0",
+        "nunomaduro/collision": "^5.0 || ^6.0",
+        "nunomaduro/larastan": "^1.0 || ^2.0",
+        "orchestra/testbench": "^6.0 || ^7.0",
+        "phpstan/phpstan": "^1.0",
+        "phpunit/phpunit": "^9.5"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Abordage\\TableCard\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Abordage\\TableCard\\CardServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "phpcsf": "vendor/bin/php-cs-fixer fix --diff",
+        "phpstan:generate-baseline": "vendor/bin/phpstan --generate-baseline",
+        "test:all": [
+            "@test:phpcsf",
+            "@test:phpstan"
+        ],
+        "test:phpcsf": "vendor/bin/php-cs-fixer fix --dry-run",
+        "test:phpstan": "vendor/bin/phpstan analyse"
+    },
+    "scripts-descriptions": {
+        "phpcsf": "Run PHP-CS-Fixer fix",
+        "phpstan:generate-baseline": "Generate baseline for PHPStan",
+        "test:all": "Run all code analysis and tests",
+        "test:phpcsf": "Run PHP-CS-Fixer test",
+        "test:phpstan": "Run PHPStan"
+    }
+}

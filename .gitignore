@@ -1,0 +1,15 @@
+.php-cs-fixer.cache
+.php-cs-fixer.php
+.phpunit.result.cache
+/.vscode
+/.idea
+/build
+/coverage
+/vendor
+composer.lock
+node_modules
+npm-debug.log
+phpstan.neon
+phpunit.xml
+testbench.yaml
+/package-lock.json
