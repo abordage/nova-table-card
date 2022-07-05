@@ -2,11 +2,9 @@
 
 A Laravel Nova card for displaying lists with links to view and edit.
 
-[//]: # (<p style="text-align: center;" align="center">)
-
-[//]: # (<img alt="Laravel Nova Table Card" src="https://github.com/abordage/nova-table-card/blob/master/docs/images/abordage-nova-table-card.png?raw=true">)
-
-[//]: # (</p>)
+<p style="text-align: center;" align="center">
+<img alt="Laravel Nova Table Card" src="https://github.com/abordage/nova-table-card/blob/master/docs/images/abordage-nova-table-card.png?raw=true">
+</p>
 
 [//]: # ()
 [//]: # ()
