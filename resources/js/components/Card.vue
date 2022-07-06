@@ -2,7 +2,7 @@
     <card class="px-4 py-4">
         <h2 v-if="card.title" class="text-lg px-2 mb-2">{{ card.title }}</h2>
 
-        <table class="w-full table-default" cellpadding="0" cellspacing="0" data-testid="resource-table">
+        <table v-if="card.rows.length" class="w-full table-default" cellpadding="0" cellspacing="0" data-testid="resource-table">
             <tr v-for="item in card.rows" class="group">
 
                 <td class="
@@ -57,6 +57,10 @@
                 </td>
             </tr>
         </table>
+
+        <div v-if="card.rows.length === 0" class="px-2 text-xs text-gray-400">
+            {{ __('There are no fields to display.') }}
+        </div>
     </card>
 </template>
 
