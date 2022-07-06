@@ -28,9 +28,8 @@ class TableCard extends Card
     /**
      * @param Model $model
      * @return string
-     * @phpstan-ignore-next-line
      */
-    private function getResourceUrl(Model $model): string
+    public function getResourceUrl(Model $model): string
     {
         return config('nova.path') . '/resources/' . str_replace('_', '-', $model->getTable()) . '/' . $model->getKey();
     }
