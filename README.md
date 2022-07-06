@@ -104,15 +104,6 @@ class MyTableCard extends TableCard
 
         return $rows;
     }
-
-    /**
-     * @param Model $model
-     * @return string
-     */
-    private function getResourceUrl(Model $model): string
-    {
-        return config('nova.path') . '/resources/' . str_replace('_', '-', $model->getTable()) . '/' . $model->getKey();
-    }
 }
 ```
 

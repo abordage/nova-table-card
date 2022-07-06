@@ -2,6 +2,7 @@
 
 namespace Abordage\TableCard;
 
+use Illuminate\Database\Eloquent\Model;
 use Laravel\Nova\Card;
 
 class TableCard extends Card
@@ -25,6 +26,16 @@ class TableCard extends Card
     public function rows(): array
     {
         return [];
+    }
+
+    /**
+     * @param Model $model
+     * @return string
+     * @phpstan-ignore-next-line
+     */
+    private function getResourceUrl(Model $model): string
+    {
+        return config('nova.path') . '/resources/' . str_replace('_', '-', $model->getTable()) . '/' . $model->getKey();
     }
 
     public function jsonSerialize(): array
