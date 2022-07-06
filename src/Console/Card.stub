@@ -3,7 +3,6 @@
 namespace {{ namespace }};
 
 use Abordage\TableCard\TableCard;
-use Illuminate\Database\Eloquent\Model;
 
 class {{ class }} extends TableCard
 {
