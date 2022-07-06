@@ -7,7 +7,7 @@ use Abordage\TableCard\TableCard;
 class {{ class }} extends TableCard
 {
     /**
-     * Name of the card.
+     * Name of the card (optional, remove if not needed)
      */
     public string $title = 'card-title';
 

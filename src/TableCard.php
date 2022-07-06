@@ -7,7 +7,11 @@ use Laravel\Nova\Card;
 
 class TableCard extends Card
 {
+    /**
+     * Name of the card (optional, remove if not needed)
+     */
     public string $title = '';
+
     public array $rows = [];
 
     public function __construct()
@@ -20,6 +24,12 @@ class TableCard extends Card
         $this->rows = $this->rows();
     }
 
+    /**
+     * Array of table rows
+     *
+     * Required keys: title, viewUrl
+     * Optional keys: subtitle, editUrl
+     */
     public function rows(): array
     {
         return [];
