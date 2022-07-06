@@ -8,10 +8,7 @@ use Laravel\Nova\Card;
 class TableCard extends Card
 {
     public string $title = '';
-
     public array $rows = [];
-
-    public $width = '1/3';
 
     public function __construct()
     {
