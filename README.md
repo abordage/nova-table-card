@@ -67,7 +67,6 @@ Once your table card class has been generated, you're ready to customize it:
 namespace App\Nova\Cards;
 
 use Abordage\TableCard\TableCard;
-use Illuminate\Database\Eloquent\Model;
 
 class MyTableCard extends TableCard
 {
