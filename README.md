@@ -114,7 +114,7 @@ If you have any feedback, comments or suggestions, please feel free to open an i
 ## Credits
 
 - [Pavel Bychko](https://github.com/abordage)
-- [All Contributors](../../contributors)
+- [All Contributors](https://github.com/abordage/nova-table-card/graphs/contributors)
 
 ## License
 
