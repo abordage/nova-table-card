@@ -3,6 +3,7 @@
 .phpunit.result.cache
 /.vscode
 /.idea
+/.local
 /build
 /coverage
 /vendor
