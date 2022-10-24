@@ -34,7 +34,7 @@
                     dark:group-hover:bg-gray-900">
 
                     <div class="flex items-center justify-end space-x-0 text-gray-400">
-                        <a :href="item.viewUrl" class="toolbar-button hover:text-primary-500 px-2">
+                        <a v-if="item.viewUrl" :href="item.viewUrl" class="toolbar-button hover:text-primary-500 px-2">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                  stroke="currentColor" width="24" height="24" class="inline-block" role="presentation">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
