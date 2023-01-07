@@ -17,7 +17,7 @@ A Laravel Nova card for displaying lists with links to view and edit.
 
 
 <a href="https://github.com/abordage/nova-table-card/actions/workflows/php-cs-fixer.yml" title="GitHub Code Style Status">
-    <img alt="GitHub Code Style Status" src="https://img.shields.io/github/workflow/status/abordage/nova-table-card/PHP%20CS%20Fixer?label=code%20style">
+    <img alt="GitHub Code Style Status" src="https://img.shields.io/github/actions/workflow/status/abordage/nova-table-card/php-cs-fixer.yml?label=code%20style">
 </a>
 
 
