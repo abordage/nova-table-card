@@ -1,3 +1,5 @@
+<!--suppress HtmlDeprecatedAttribute -->
+
 # Nova Table Card
 
 A Laravel Nova card for displaying lists with links to view and edit.
@@ -40,7 +42,7 @@ A Laravel Nova card for displaying lists with links to view and edit.
 </p>
 
 ## Requirements
-- PHP 7.4 or higher
+- PHP 7.4 - 8.2
 - Nova 4
 
 ## Installation
