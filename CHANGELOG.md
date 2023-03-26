@@ -2,6 +2,19 @@
 
 All notable changes to `nova-table-card` will be documented in this file.
 
+## 0.2.1 - 2023-03-26
+
+### What's Changed
+
+- add row cssClasses by @greg0x46 in https://github.com/abordage/nova-table-card/pull/17
+- Bump lycheeverse/lychee-action from 1.5.4 to 1.6.1 by @dependabot in https://github.com/abordage/nova-table-card/pull/15
+
+### New Contributors
+
+- @greg0x46 made their first contribution in https://github.com/abordage/nova-table-card/pull/17
+
+**Full Changelog**: https://github.com/abordage/nova-table-card/compare/0.2.0...0.2.1
+
 ## 0.2.0 - 2023-02-25
 
 ### What's Changed
