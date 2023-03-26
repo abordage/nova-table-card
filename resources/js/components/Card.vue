@@ -4,7 +4,6 @@
 
         <table v-if="card.rows.length" class="w-full table-default" cellpadding="0" cellspacing="0" data-testid="resource-table">
             <tr v-for="item in card.rows" class="group">
-
                 <td class="
                     text-left
                     text-90
@@ -15,7 +14,9 @@
                     dark:border-gray-700
                     dark:bg-gray-800
                     group-hover:bg-gray-50
-                    dark:group-hover:bg-gray-900">
+                    dark:group-hover:bg-gray-900"
+                    :class="item.cssClasses"
+                >
                     {{ item.title }}
                     <div v-if="item.subtitle" class="text-xs text-gray-400">{{ item.subtitle }}</div>
                 </td>

@@ -98,6 +98,7 @@ class MyTableCard extends TableCard
             $rows[] = [
                 'title' => $model->name,
                 'subtitle' => $model->email,
+                'cssClasses' => ['text-red-500'],
                 'viewUrl' => $this->getResourceUrl($model),
                 'editUrl' => $this->getResourceUrl($model) . '/edit',
             ];
