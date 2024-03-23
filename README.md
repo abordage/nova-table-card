@@ -42,7 +42,8 @@ A Laravel Nova card for displaying lists with links to view and edit.
 </p>
 
 ## Requirements
-- PHP 7.4 - 8.2
+- PHP 7.4 - 8.3
+- Laravel 8.x - 11.x
 - Nova 4
 
 ## Installation
