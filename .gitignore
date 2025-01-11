@@ -14,3 +14,4 @@ phpstan.neon
 phpunit.xml
 testbench.yaml
 /package-lock.json
+/auth.json
