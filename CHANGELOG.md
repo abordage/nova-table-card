@@ -2,6 +2,14 @@
 
 All notable changes to `nova-table-card` will be documented in this file.
 
+## 1.0.0 - 2025-01-11
+
+### What's Changed
+
+* Nova 5 by @abordage in https://github.com/abordage/nova-table-card/pull/35
+
+**Full Changelog**: https://github.com/abordage/nova-table-card/compare/0.2.2...1.0.0
+
 ## 0.2.2 - 2024-03-23
 
 ### What's Changed
